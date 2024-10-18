@@ -1,6 +1,6 @@
 import Footer from "./app/components/Footer"
 import Header from "./app/components/Header"
-import HighLightSection from "./app/components/HighLightSection"
+import HighlightSection from "./app/components/HighLighSection"
 import Section from "./app/components/Section"
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         }}>
         
       </main>
-      <HighLightSection></HighLightSection>
+      <HighlightSection />
       <Section title='Recomendados para você'/>
       <Section title='Séries do momento'/>
       <Section title='Assistir com a família'/>
