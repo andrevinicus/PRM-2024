@@ -15,17 +15,10 @@ const update = (id: number, category: ICategory) => (API.put(`${_ENDPOINT}/${id}
 const remove = (id: number) => (API.delete(`${_ENDPOINT}/${id}`));
   
 
-const getMovies = async (): Promise<IMove[]> => {
-  const { data } = await API.get(_ENDPOINT);
-  return data;
-};
-
-const getMoviesById = async (id: string): Promise<IMove> => {
-  const { data } = await API.get(`${_ENDPOINT}/${id}`);
-  return data;
-};
-
 export const CategoryService = {
-  getMovies,
-  getMoviesById,
+  getAll,
+  create,
+  getById,
+  update,
+  remove,
 };
