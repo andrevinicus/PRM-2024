@@ -9,7 +9,7 @@ export class CategoryController {
     
     @Get()
     findAll(): Promise<Category[]> {
-        return this.service.findALl();
+        return this.service.findAll();
     }
 
     @Get(':id')

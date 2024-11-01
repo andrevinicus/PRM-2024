@@ -7,6 +7,6 @@ export interface IMove{
     id?: string
     title: string
     description: string
-    posters: string
+    poster: string
     ageRating: string
 }
