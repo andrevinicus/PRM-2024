@@ -1,7 +1,7 @@
 import { Body, Controller, Delete, Get, HttpCode, HttpException, HttpStatus, Param, ParseUUIDPipe, Post, Put, Query } from "@nestjs/common";
-import { Category } from "src/entities/category-entity";
-import { Movie } from "src/entities/movie-entity";
-import { MovieService } from "src/services/movie-services";
+import { Category } from "src/categories/category-entity";
+import { Movie } from "src/movies/movie-entity";
+import { MovieService } from "src/movies/movie-services";
 
 @Controller('movies')
 export class MovieController {

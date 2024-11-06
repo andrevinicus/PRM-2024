@@ -1,5 +1,5 @@
 import {Column, Entity, JoinTable, ManyToMany, PrimaryGeneratedColumn} from "typeorm";
-import { Category } from "./category-entity";
+import { Category } from "../categories/category-entity";
 @Entity('movie')
 export class Movie {
   @PrimaryGeneratedColumn('uuid')
